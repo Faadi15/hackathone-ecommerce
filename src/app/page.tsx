@@ -1,11 +1,9 @@
-import { Footer } from "./Components/Footer";
-import { Header, Upperheader } from "./Components/Header";
+import { Footer } from "./Components/Footer/page";
 
 export default function Home() {
   return (
     <div>
-      <Upperheader />
-      <Header />
+
       <Footer />
     </div>
   );
