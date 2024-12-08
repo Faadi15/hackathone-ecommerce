@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function ContactUs() {
   return (
     <div className="p-8 max-w-6xl mx-auto">
@@ -80,8 +78,5 @@ export default function ContactUs() {
         </div>
     </div>
 
-
-  );
+  )
 };
-
-
