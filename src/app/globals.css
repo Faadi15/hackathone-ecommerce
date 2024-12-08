@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+.bgImage{
+  background:url(/public)
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;

@@ -9,11 +9,11 @@ const Nav = () => {
       <Link href={"/Shop"}className="mr-5 hover:text-[#636270]">Shop</Link>
       <Link href={"/Product"}className="mr-5  hover:text-[#636270]">Product</Link>
       <Link href={"/SingleProduct"} className="mr-5 hover:text-[#636270]">Pages</Link>
-      <Link href={"/About"} className="mr-5 hover:text-[#636270]">About</Link>
+      <Link href={"/Aboutus"} className="mr-5 hover:text-[#636270]">About</Link>
     </nav>
         <div className="lg:w-2/5 inline-flex lg:justify-end lg:ml-0 pr-36">
-      Conatct (808) 555-0111
-      </div>
+        <Link href ="/ContactUs">Conatct (808) 555-0111</Link></div>
+  
   </div>
 </header>
 

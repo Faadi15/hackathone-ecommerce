@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { AiOutlineExclamationCircle } from "react-icons/ai";
 export default function Header() {
   return (
@@ -7,9 +8,9 @@ export default function Header() {
       <select className='bg-[#272343] text-white ml-[30%]'>
         <option value="English, Urdu" >Eng</option>
       </select>
-      <span className="bg-[#272343] text-white pl-6">Faqs</span>
+      <span className="bg-[#272343] text-white pl-6"><Link href="/Faq">Faqs</Link></span>
       <span className="text-white pl-3 pt-1"> <AiOutlineExclamationCircle /></span>
-      <span className="bg-[#272343] text-white pl-3 ">Need Help! </span>
+      <span className="bg-[#272343] text-white pl-3"><Link href ="/ContactUs">Need Help!</Link></span>
     </div>
   )
 }
