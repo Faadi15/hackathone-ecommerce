@@ -10,7 +10,7 @@ export default function Header() {
       </select>
       <span className="bg-[#272343] text-white pl-6"><Link href="/Faq">Faqs</Link></span>
       <span className="text-white pl-3 pt-1"> <AiOutlineExclamationCircle /></span>
-      <span className="bg-[#272343] text-white pl-3"><Link href ="/ContactUs">Need Help!</Link></span>
+      <span className="bg-[#272343] text-white pl-3"><Link href ={"/ContactUs"}>Need Help!</Link></span>
     </div>
   )
 }

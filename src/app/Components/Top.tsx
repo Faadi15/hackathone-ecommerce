@@ -12,7 +12,7 @@ export default function Top ()  {
       
             <button className="items-center flex bg-white border-0 py-1 px-3 
             focus:outline-none hover:bg-gray-200 rounded text-black mt-4 md:mt-0">
-      <IoCartOutline className='pr-2 size-8'/><Link href="/Cart">Cart </Link><PiNumberCircleTwoFill className='pl-2 size-8 text-[#007580]'/>
+      <IoCartOutline className='pr-2 size-8'/><Link href={"/Cart"}>Cart </Link><PiNumberCircleTwoFill className='pl-2 size-8 text-[#007580]'/>
        </button>
     </div>
   </div>
