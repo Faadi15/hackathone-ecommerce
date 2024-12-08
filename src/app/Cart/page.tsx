@@ -1,9 +1,10 @@
+import SingleProduct from "../SingleProduct/page";
 
 
 export default function About () {
   return (
     <div>
-<h1>About Page</h1>
+<SingleProduct/>
     </div>
   )
 }
