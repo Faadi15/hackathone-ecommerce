@@ -4,7 +4,7 @@ import "./globals.css";
 import Top from "./Components/Top";
 import Header from "./Components/Header";
 import Nav from "./Components/Nav";
-import { Footer } from "./Components/Footer";
+import Footer from "./Components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,14 +29,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Top/>
-        <Header/>
+      <body>
+        <Header />
+        <Top />
         <Nav />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

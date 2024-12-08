@@ -1,8 +1,10 @@
+import { Featured } from "./Components/Featured";
 
 export default function Home() {
-  return (
-    <div>
-      <Home/>
-    </div>
-  );
-}
+    return (
+      <div>
+<Featured/>
+        </div>
+    );
+  }
+  
