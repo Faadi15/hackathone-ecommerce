@@ -1,4 +1,4 @@
-export default function ContactUs() {
+export default function Contact() {
   return (
     <div className="p-8 max-w-6xl mx-auto">
       <h1 className="text-2xl font-bold text-center text-gray-800 mb-8">

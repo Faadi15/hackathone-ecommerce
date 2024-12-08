@@ -12,7 +12,7 @@ const Nav = () => {
       <Link href={"/Aboutus"} className="mr-5 hover:text-[#636270]">About</Link>
     </nav>
         <div className="lg:w-2/5 inline-flex lg:justify-end lg:ml-0 pr-36">
-        <Link href ="/ContactUs">Conatct (808) 555-0111</Link></div>
+  <Link href ={"/Contact"}>Contact (808) 555-0111</Link></div>
   
   </div>
 </header>
