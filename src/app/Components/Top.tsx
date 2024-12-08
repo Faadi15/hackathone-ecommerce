@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import { PiX } from 'react-icons/pi'
 import { IoCartOutline } from "react-icons/io5";
 import { PiNumberCircleTwoFill } from "react-icons/pi"; 
 
