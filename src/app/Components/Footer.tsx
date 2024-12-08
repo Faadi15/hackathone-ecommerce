@@ -1,6 +1,6 @@
 import { AiOutlineSend } from "react-icons/ai"
 import daisyui from "daisyui"
-export const Footer = () => {
+export default function Footer ()  {
     return (
         <footer className="footer bg-black text-white p-10">
             <nav>
