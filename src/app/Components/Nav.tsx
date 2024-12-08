@@ -8,7 +8,7 @@ const Nav = () => {
       <Link href={"/"} className="mr-5 text-[#636270]">Home</Link>
       <Link href={"/Shop"}className="mr-5 hover:text-[#636270]">Shop</Link>
       <Link href={"/Product"}className="mr-5  hover:text-[#636270]">Product</Link>
-      <Link href={"/Pages"} className="mr-5 hover:text-[#636270]">Pages</Link>
+      <Link href={"/SingleProduct"} className="mr-5 hover:text-[#636270]">Pages</Link>
       <Link href={"/About"} className="mr-5 hover:text-[#636270]">About</Link>
     </nav>
         <div className="lg:w-2/5 inline-flex lg:justify-end lg:ml-0 pr-36">

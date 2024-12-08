@@ -1,9 +1,10 @@
 import React from 'react'
+import Nav from '../Components/Nav'
 
-export const About = () => {
+export default function Product  ()  {
   return (
     <div>
-Product
+<Nav/>
 
     </div>
   )
