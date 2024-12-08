@@ -1,5 +1,4 @@
 import React from 'react';
-import CFooter from '../Components/CFooter';
 
 export default function ContactUs() {
   return (

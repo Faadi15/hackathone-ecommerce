@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -7,7 +8,7 @@ export default function About() {
           <div className="flex flex-wrap -mx-4 -mb-10 text-center">
             <div className="sm:w-1/2 mb-10 px-4">
               <div className="rounded-lg h-64 overflow-hidden">
-                <img
+                <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
                   src="https://dummyimage.com/1202x502"
@@ -16,7 +17,7 @@ export default function About() {
             </div>
             <div className="sm:w-1/2 mb-10 px-4">
               <div className="rounded-lg h-64 overflow-hidden">
-                <img
+                <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
                   src="https://dummyimage.com/1202x502"
@@ -42,7 +43,7 @@ export default function About() {
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
             <div className="p-4 md:w-1/4 sm:mb-0 mb-6">
               <div className="rounded-lg h-64 overflow-hidden">
-                <img
+                <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
                   src="https://dummyimage.com/1203x503"
@@ -73,7 +74,7 @@ export default function About() {
             </div>
             <div className="p-4 md:w-1/4 sm:mb-0 mb-6">
               <div className="rounded-lg h-64 overflow-hidden">
-                <img
+                <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
                   src="https://dummyimage.com/1204x504"
@@ -104,7 +105,7 @@ export default function About() {
             </div>
             <div className="p-4 md:w-1/4 sm:mb-0 mb-6">
               <div className="rounded-lg h-64 overflow-hidden">
-                <img
+                <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
                   src="https://dummyimage.com/1205x505"
@@ -136,7 +137,7 @@ export default function About() {
 
             <div className="p-4 md:w-1/4 sm:mb-0 mb-6">
               <div className="rounded-lg h-64 overflow-hidden">
-                <img
+                <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
                   src="https://dummyimage.com/1205x505"
@@ -162,20 +163,20 @@ export default function About() {
             </div>
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-full">
-                <img
+                <Image
                   alt="gallery"
                   className="w-full h-full object-cover object-center block"
                   src="https://dummyimage.com/601x361" />
               </div>
               <div className="md:p-2 p-1 w-2/3">
-                <img
+                <Image
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
                   src="https://dummyimage.com/502x302"
                 />
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img
+                <Image
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
                   src="https://dummyimage.com/503x303"
